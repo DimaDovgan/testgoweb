@@ -1,0 +1,120 @@
+.AboutConainer{
+    height: 562px;
+    background: #28A745;
+    border-radius: 0px;
+    margin-top: -4px;
+}
+.higthTxt{
+  padding-top: 80px;
+  margin: 0px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+
+color: #FFFFFF;
+
+}
+.comandaImg{
+  height: 220px;
+  width: 100%;
+  background-image: url("../../images/ComandaImgJpg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.hText{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+width: 300px;
+color: #FFFFFF;
+margin: 0px;
+margin-top: 16px;
+}
+.aboutText{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #FFFFFF;
+margin: 0px;
+margin-top: 24px;
+}
+.aboutButton{
+  width: 146px;
+height: 54px;
+
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+background: #28A745;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+margin-top: 30px;
+
+}
+.aboutButton:hover{
+  color:#28A745;
+  background:#fff;
+}
+@media (min-width: 768px) {
+  .About{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .comandaImg{
+    height: 589px; 
+    width: 50%;
+    background-image: url("../../images/ComandImgTab.png");
+  }
+  .AboutConainer{
+    width:50%;
+    height: 589px;
+    margin-top:0px;
+  }
+  .higthTxt{
+    padding-top: 62px;
+    font-size: 18px;
+  }
+  .hText{
+    width: 250px;
+    font-size: 40px;
+  }
+  .aboutText{
+    font-size: 18px;
+  }
+  
+  
+}
+
+@media (min-width: 1360px) {
+
+  .comandaImg{
+    height: 460px; 
+    background-image: url("../../images/ComandImgDesctop.png");
+  }
+  .AboutConainer{
+    height: 460px;
+  
+  }
+  .higthTxt{
+    padding-top: 80px;
+  }
+  .hText{
+    width: auto;
+
+  }
+}
+

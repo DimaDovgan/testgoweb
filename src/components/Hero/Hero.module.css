@@ -1,0 +1,93 @@
+.bgrImg{
+    height: 533px;
+    background-image: url("../../images/CityImg.png");
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.Home{
+    height: 100%;
+}
+.contentHero{
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.heroZagolovok{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 54px;
+margin: 0 auto;
+color: #FFFFFF;
+width: 200px;
+margin-bottom: 16px;
+}
+.heroText{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 24px;
+
+}
+.heroButton{
+width: 175px;
+height: 57px;
+
+background: #28A745;
+border-radius: 5px;
+margin: 0 auto;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.heroButton:hover{
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+    .bgrImg{
+        height: 1024px;
+    background-image: url("../../images/HeroImgTab.png");
+    }
+    .contentHero{
+        padding-top: 378px;
+    }
+    .heroZagolovok{
+    font-size: 56px;
+    width: auto;
+    margin-bottom: 26px;
+    }
+    .heroText{
+        font-size: 40px;
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+  }
+  @media (min-width: 1360px) {
+    .bgrImg{
+        height: 768px;
+    background-image: url("../../images/HeroImgDesctop.png");
+    }
+    .contentHero{
+        padding-top: 272px;
+    }
+
+  }

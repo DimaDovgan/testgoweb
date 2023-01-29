@@ -1,0 +1,43 @@
+.footer{
+    background: #333333;
+}
+.socialContact{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 286px;
+    margin: 0 auto;
+}
+
+.socialIcon{
+    display:block;
+    fill:white;
+}
+.socialIcon:hover{
+  fill:  #28A745;
+}
+.footerText{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+padding-bottom: 20px;
+margin-top: 12px;
+
+}
+
+@media (min-width: 768px) {
+    .footerText{
+        font-size: 18px;
+    }
+   
+
+}
